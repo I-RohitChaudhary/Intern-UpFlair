@@ -1,0 +1,29 @@
+.box1{
+    width: 60%;
+    border-width: 10px;
+    border-style: double;
+    padding: 0px auto ;
+    margin: 0px  auto;
+    
+}
+.box2{
+    border-style: double;
+    padding: 0px auto;
+    margin: 0px  auto;
+}
+.box3{
+    border-style: double;
+    margin: 0px  auto;
+}
+.box4{
+    border-style: double;
+    margin: 0px  auto;
+}
+.box5{
+    border-style: double;
+    margin: 0px  auto;
+}
+.box6{
+    border-style: double;
+    margin: 0px  auto;
+}

@@ -1,0 +1,79 @@
+
+.body  {
+    /* max-width: max-content; */
+    margin: 0px auto;
+    background-color:yellow;
+
+}
+.class1{
+    background-color: rgb(51, 70, 99);
+    margin: 20px auto;
+    width: 90%;
+    text-align: center;
+    border-radius: 50px;
+    color: aliceblue;
+    text-shadow: 5px 5px 5px black;
+    box-shadow: 5px 3px 8px 2px gray;
+    border-style: solid;
+    border-color: gray;
+}
+.class2{
+    background-color: rgb(51, 70, 99);
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 50px;
+    color: rgb(229, 236, 241);
+    text-shadow: 5px 5px 5px black;
+    box-shadow: 5px 3px 8px 2px gray;
+    border-style: solid;
+    border-color: gray;
+}
+.class3{
+    background-color: rgb(51, 70, 99);
+    margin: 20px auto;
+    width: 70%;
+    text-align: center;
+    border-radius: 50px;
+    color: aliceblue;
+    text-shadow: 5px 5px 5px black;
+    box-shadow: 5px 3px 8px 2px gray;
+    border-style: solid;
+    border-color: gray;
+}
+.class4{
+    background-color: rgb(51, 70, 99);
+    margin: 20px auto;
+    width: 60%;
+    text-align: center;
+    border-radius: 50px;
+    color: rgb(229, 236, 241);
+    text-shadow: 5px 5px 5px black;
+    box-shadow: 5px 3px 8px 2px gray;
+    border-style: solid;
+    border-color: gray;
+}
+.class5{
+    background-color: rgb(51, 70, 99);
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 50px;
+    color: rgb(229, 236, 241);
+    text-shadow: 5px 5px 5px black;
+    box-shadow: 5px 3px 8px 2px gray;
+    border-style: solid;
+    border-color: gray;
+}
+.class6{
+    background-color: rgb(51, 70, 99);
+    margin: 20px auto;
+    width: 40%;
+    text-align: center;
+    border-radius: 50px;
+    color: rgb(229, 236, 241);
+    text-shadow: 5px 5px 5px black;
+    box-shadow: 5px 3px 8px 2px gray;
+    border-style: solid;
+    border-color: gray;
+}

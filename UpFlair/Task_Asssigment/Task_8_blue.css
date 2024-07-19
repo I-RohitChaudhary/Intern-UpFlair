@@ -1,0 +1,46 @@
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #aae3eb;
+    padding: 20px;
+     box-shadow: 5px 5px 9px 2px grey;
+}
+input {
+    width: 60%;
+    margin: 10px ;
+    padding: 8px;
+    padding-right: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    border-radius: 50px;
+}
+label{
+    padding-left: 50px;
+}
+select{
+    width: 60%;
+    margin: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* float: right ; */
+}
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 6px;
+}
+h2,
+h3 {
+    text-align: center;
+    color: #333;
+}
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+
+}

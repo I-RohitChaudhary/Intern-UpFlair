@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop-Down</title>
+    <style>
+        body{
+            background-color: #4336c0;
+        }
+        .container{
+            width: 100%;
+            display: flex;
+            
+        }
+        .item ,button{
+            padding: 10px;
+            padding-left: 100px;
+            border: 1px solid white;
+            flex-grow: 1;
+        }
+        .dropdown-items{
+            display: none;
+        }
+        
+        .drop-down:hover .dropdown-items{
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">Home</div>
+        <div class="item">Services</div>
+        <div class="drop-down">
+            <button>Blog</button>
+            <div class="dropdown-items">
+                <button>random text</button>
+                <button>random text</button>
+                <button>random text</button>
+                <button>random text</button>
+            </div>
+        <div class="item">About us</div>
+        <div class="item">Contact us</div>
+    </div>
+
+</body>
+
+</html>

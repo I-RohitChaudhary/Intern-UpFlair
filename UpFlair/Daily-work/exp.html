@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="Fom_Ass.css">
+</head>
+<body>
+    <div class="container">
+        <h2>XYZ College/School</h2>
+        <h2>Student Registration Form</h2>
+        <form action="#" method="POST" enctype="multipart/form-data">
+            <label for="studentImage">Student Image:</label>
+            <input type="file" id="studentImage" name="studentImage" accept="image/*">
+
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName">
+
+            <label for="fathersName">Father's Name:</label>
+            <input type="text" id="fathersName" name="fathersName">
+
+            <label for="mothersName">Mother's Name:</label>
+            <input type="text" id="mothersName" name="mothersName">
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other">Other</label>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="level">Level:</label>
+            <select id="level" name="level">
+                <option value="High School">High School</option>
+                <!-- Add more options as needed -->
+            </select>
+
+            <label for="department">Department:</label>
+            <select id="department" name="department">
+                <option value="Electrical Engineering">Electrical Engineering</option>
+                <!-- Add more options as needed -->
+            </select>
+
+            <label for="telMobile">Tel/Mobile:</label>
+            <input type="text" id="telMobile" name="telMobile">
+
+            <div class="section-title">Permanent Address</div>
+
+            <label for="permState">State:</label>
+            <input type="text" id="permState" name="permState">
+
+            <label for="permCity">City:</label>
+            <input type="text" id="permCity" name="permCity">
+
+            <label for="permZip">Zip Code:</label>
+            <input type="text" id="permZip" name="permZip">
+
+            <label for="permTel">Tel/Mobile:</label>
+            <input type="text" id="permTel" name="permTel">
+
+            <input type="checkbox" id="sameAsPerm" name="sameAsPerm">
+            <label for="sameAsPerm">Same as Permanent Address</label>
+
+            <div class="section-title">Temporary Address</div>
+
+            <label for="tempState">State:</label>
+            <input type="text" id="tempState" name="tempState">
+
+            <label for="tempCity">City:</label>
+            <input type="text" id="tempCity" name="tempCity">
+
+            <label for="tempZip">Zip Code:</label>
+            <input type="text" id="tempZip" name="tempZip">
+
+            <label for="tempTel">Tel/Mobile:</label>
+            <input type="text" id="tempTel" name="tempTel">
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>

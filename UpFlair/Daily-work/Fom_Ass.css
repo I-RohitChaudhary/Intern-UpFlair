@@ -1,0 +1,94 @@
+/* .Color {
+    padding: 30px;
+    background-color: rgb(186, 243, 224);
+    text-align: "Center";
+    width: 80%;
+    margin: 0px auto;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    background-color: antiquewhite;
+    width: 60%;
+    border-radius: 7px;
+    height: 4vh;
+    margin: 5px auto;
+    padding-left: 70px;
+}
+
+label {
+    padding: 45px;
+    
+}
+
+hr{
+    width: 70%;
+    padding: 0px auto;
+    color: black;
+    height: 1px;
+    
+}
+
+ */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #e7f0f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input,
+.form-group select,
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group input[type="radio"],
+.form-group input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+.form-group button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
